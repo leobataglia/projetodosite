@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital@0;1&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Mulish', serif;
+    text-decoration: none;
+}
+body{
+    background-color: #f3f5d2;
+}
+header{
+    display: flex;
+    padding: 10px;
+    background-color: #eaecca;
+}
+header img{
+    margin-left: 70px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 45px;
+    font-weight: 700;
+    
+}
+nav p{
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #254051;
+    color: white;
+
+}
+nav p:hover{
+    background-color: #33586e;
+    color: #f3f5d2;
+}
+a:visited{
+    color: #234054;
+}
+section{
+    display: inline-block;
+    margin-bottom: 90px;
+}
+section img{
+    display: inline-block;
+    margin-bottom: 135px;
+    align-items: center;
+    width: 663px;
+    margin-left: 70px;
+}
+section p{
+    display: inline-block;
+    font-size: 24px;
+    width: 676px;
+    text-align: center;
+    font-weight: 500;
+    color: #234054;
+    line-height: 40px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #eaecca;
+    padding: 10px;
+    text-align: center;
+}
+footer p{
+    display: flex;
+    align-items: center;
+}
+footer img{
+    display: inline-block;
+    align-items: center;
+}
