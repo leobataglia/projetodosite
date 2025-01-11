@@ -23,7 +23,7 @@ nav{
     margin: auto;
     gap: 45px;
     font-weight: 700;
-    
+    border: none;
 }
 nav p{
     padding: 10px;
@@ -36,6 +36,14 @@ nav p:hover{
     background-color: #33586e;
     color: #f3f5d2;
 }
+nav p{
+    box-shadow: 0px 5px #2f5064;
+}
+nav p:active{
+    transform: translateY(3px);
+    box-shadow: 0px 3px #34576e;
+}
+
 a:visited{
     color: #234054;
 }
