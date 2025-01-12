@@ -87,31 +87,52 @@ footer img{
     align-items: center;
 }
 
-@media only screen and (min-width: 360px) and (max-width: 414px) and (orientation: portrait) {
-    body {
-        font-size: 15px;
-        margin: 10px;
+@media (max-width: 450px){
+    *{
+        margin: 0px;
+        padding: 0px;
     }
-    nav a {
+    body{
         font-size: 15px;
     }
-    header, footer {
-        padding: 10px;
+    header{
+        padding: 0px;
+        width: 450px;
     }
     header img{
-        margin-left: -10px;
+        margin-left: 0px;
+        width: 150px;
     }
-    img {
-        max-width: 33%;
-        height: 200px;
-        margin-bottom: 22px;
-    }
-    section p{
-        width: 373px;
-        line-height: 25px;
-        margin-left: 11px;
-        font-size: 15px;
+    nav{
+        gap: 6px;
         text-align: center;
     }
+    nav p{
+        padding: 4px;
+        width: 90px;
+    }
+    #pdt{
+        padding: 13px;
+    }
+    section{
+        width: 450px;
+    }
+    section img{
+        width: 430px;
+        margin-left: 8px;
+        margin-bottom: 0px;
+        margin-top: 40px;
+    }
+    section p {
+         font-size: 15px;
+         margin: auto;
+         width: 450px;
+         margin-top: 37px;
+    }
+    footer{
+        padding: 0px;
+    }
+    footer img{
+        width: 100px;
+    }
 }
-
