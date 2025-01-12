@@ -130,6 +130,7 @@ footer img{
          margin-top: 37px;
     }
     footer{
+        width: 450px;
         padding: 0px;
     }
     
@@ -137,3 +138,5 @@ footer img{
         width: 130px;
     }
 }
+
+
