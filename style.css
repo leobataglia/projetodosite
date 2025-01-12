@@ -86,7 +86,7 @@ footer img{
     display: inline-block;
     align-items: center;
 }
-
+/*Config meu cel*/
 @media (max-width: 450px){
     *{
         margin: 0px;
@@ -139,8 +139,8 @@ footer img{
     }
 }
 
-
-@media (min-width: 451px) and (max-width:750px){
+/*CONF CEL THIAGO*/
+@media (min-width: 451px) and (max-width:750px){ 
     *{
         margin: 0px;
         padding: 0px;
