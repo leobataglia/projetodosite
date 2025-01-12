@@ -92,6 +92,9 @@ footer img{
         font-size: 15px;
         margin: 10px;
     }
+    nav a {
+        font-size: 15px;
+    }
     header, footer {
         padding: 10px;
     }
