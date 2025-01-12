@@ -80,8 +80,33 @@ footer{
 footer p{
     display: flex;
     align-items: center;
+    color: #234054;
 }
 footer img{
     display: inline-block;
     align-items: center;
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+        margin: 10px;
+        line-height: 1.5;
+    }
+    header, footer {
+        padding: 10px;
+        text-align: center;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .container {
+        padding: 10px;
+    }
 }
